@@ -1,8 +1,10 @@
 /*
  * Copyright (C) 2015, Lentin Joseph and Qbotics Labs Inc.
-
  * Email id : qboticslabs@gmail.com
-
+ *
+ * Copyright (C) 2017, Jonathan Cacace.
+ * Email id : jonathan.cacace@gmail.com
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
  *   * Redistributions of source code must retain the above copyright notice,
@@ -25,11 +27,7 @@
  * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
-
-
-* This code will subscriber integer values from demo_topic_publisher
-
-*/
+**/
 
 
 #include "ros/ros.h"
