@@ -22,7 +22,7 @@ _Original source code_ from [Josep Lentin](https://www.linkedin.com/in/lentinjos
 ### **Installation** 
 Download this package in the _src_ folder of your ROS workspace
 
-```https://github.com/jocacace/mastering_ros_demo_pkg```
+```git clone https://github.com/jocacace/mastering_ros_demo_pkg```
 
 Compile the package
 
