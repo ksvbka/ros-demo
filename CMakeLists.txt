@@ -51,6 +51,8 @@ include_directories(
 catkin_install_python(PROGRAMS 
   scripts/demo_topic_publisher.py
   scripts/demo_topic_subscriber.py
+  scripts/demo_msg_publisher.py
+  scripts/demo_msg_subscriber.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
