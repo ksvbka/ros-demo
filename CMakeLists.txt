@@ -55,6 +55,8 @@ catkin_install_python(PROGRAMS
   scripts/demo_msg_subscriber.py
   scripts/demo_service_client.py
   scripts/demo_service_server.py
+  scripts/demo_action_client.py
+  scripts/demo_action_server.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
