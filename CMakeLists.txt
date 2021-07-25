@@ -48,6 +48,11 @@ include_directories(
   ${Boost_INCLUDE_DIRS}
 )
 
+catkin_install_python(PROGRAMS 
+  scripts/demo_topic_publisher.py
+  scripts/demo_topic_subscriber.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 #Topic publisher
 add_executable(demo_topic_publisher src/demo_topic_publisher.cpp)
