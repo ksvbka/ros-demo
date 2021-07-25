@@ -1,7 +1,6 @@
-#include "ros/ros.h"
-#include "std_msgs/Int32.h"
+#include <ros/ros.h>
 #include <actionlib/server/simple_action_server.h>
-#include "mastering_ros_demo_pkg/Demo_actionAction.h"
+#include "mastering_ros_demo_pkg/Demo_actionAction.h" /* Auto gen from Demo_action.action */
 
 class Demo_actionAction
 {

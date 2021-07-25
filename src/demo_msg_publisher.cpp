@@ -2,10 +2,10 @@
 * This code will publish a integers from 0 to n with a delay of 100ms
 */
 
-#include "ros/ros.h"
-#include "std_msgs/Int32.h"
-#include "mastering_ros_demo_pkg/demo_msg.h"
 #include <sstream>
+#include <ros/ros.h>
+#include <std_msgs/Int32.h>
+#include "mastering_ros_demo_pkg/demo_msg.h" /* Auto gen from demo_msg.msg */
 
 int main(int argc, char **argv)
 {

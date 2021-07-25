@@ -1,7 +1,7 @@
 #include <ros/ros.h>
 #include <actionlib/client/simple_action_client.h>
 #include <actionlib/client/terminal_state.h>
-#include "mastering_ros_demo_pkg/Demo_actionAction.h"
+#include "mastering_ros_demo_pkg/Demo_actionAction.h" /* Auto gen from Demo_action.action */
 
 int main(int argc, char **argv)
 {

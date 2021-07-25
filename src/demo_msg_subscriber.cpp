@@ -2,9 +2,9 @@
 * This code will subscriber integer values from demo_topic_publisher
 */
 
-#include "ros/ros.h"
-#include "mastering_ros_demo_pkg/demo_msg.h"
 #include <sstream>
+#include <ros/ros.h>
+#include "mastering_ros_demo_pkg/demo_msg.h" /* Auto gen from demo.msg */
 
 void number_callback(const mastering_ros_demo_pkg::demo_msg::ConstPtr& msg)
 {

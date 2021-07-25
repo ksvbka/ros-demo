@@ -2,10 +2,9 @@
 * This code is the ROS service server code which will receive the integer from service client
 */
 
-#include "ros/ros.h"
-#include "std_msgs/Int32.h"
-#include "mastering_ros_demo_pkg/demo_srv.h"
+#include <ros/ros.h>
 #include <sstream>
+#include "mastering_ros_demo_pkg/demo_srv.h" /* Auto gen from demo_srv.srv */
 
 int main(int argc, char **argv)
 {
